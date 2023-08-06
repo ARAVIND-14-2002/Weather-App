@@ -8,15 +8,15 @@ height: 100vh;
 position: relative;
 `;
 
-const BackgroundImage = styled.img`
-width: 100%;
-height: 100%;
-object-fit: cover;
-position: fixed;
-top: 0;
-left: 0;
-z-index: -1;
-background-image: url(${props => (props.theme === 'light' ? '/day.jpg' : '/night.jpg')});
+const BackgroundImage = styled.div`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(${props => props.bgURL});
 `;
 
 const Heading = styled.h1`
@@ -134,7 +134,7 @@ const WeatherApp = () => {
 
   return (
     <AppWrapper>
-      <BackgroundImage src="/night.jpg" alt="Background" />
+      <BackgroundImage bgURL={backgroundImageURL} alt="Background" />
       <Heading>Weather App</Heading>
       <SearchContainer>
         <Input
