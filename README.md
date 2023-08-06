@@ -1,6 +1,8 @@
 <h1>Weather App</h1>
+From 6 AM to 6 PM This is the Background Image for the site
 <img src="screenshot_2.png" alt="Weather App-Day">
-<div>
+<div></div>
+From 6 PM to 6 AM This is the Background Image for the site  
 <img src="screenshot.png" alt="Weather App-Night">
 This is a simple weather app built with React.js that allows users to search for weather information by city name. The app uses the OpenWeatherMap API to fetch real-time weather data and displays it to the user.
 
