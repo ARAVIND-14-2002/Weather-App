@@ -1,5 +1,6 @@
 Weather App
 <img src="screenshot2.png" alt="Weather App-Day">
+<div>
 <img src="screenshot.png" alt="Weather App-Night">
 This is a simple weather app built with React.js that allows users to search for weather information by city name. The app uses the OpenWeatherMap API to fetch real-time weather data and displays it to the user.
 
