@@ -1,4 +1,4 @@
-Weather App
+<h1>Weather App</h1>
 <img src="screenshot_2.png" alt="Weather App-Day">
 <div>
 <img src="screenshot.png" alt="Weather App-Night">
